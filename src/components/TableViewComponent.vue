@@ -48,7 +48,6 @@ import { defineComponent, ref } from 'vue';
 import {
     isToday, 
     secondsToHhMmSs, 
-    getWeekOfYear, 
     secondsToDateString, 
     calculateDuration,
     isThisMonth,
@@ -221,20 +220,6 @@ export default defineComponent({
             await ionicStorage.create();
             
             readOutStorageSyncHMI();
-        }
-
-
-        async function retrieveActivitiesByFilter(name:string, filter:string) {
-            const activitiesFromStorage = await ionicStorage.get(KEY_RECORDS);
-
-            let json = JSON.parse(activitiesFromStorage);
-
-            let activities = json.activities.filter( (item:IActivityRecord) => {
-                    return item.activity == name;
-            });
-            
-            console.log(activities)
-            return activities;
         }
 
 

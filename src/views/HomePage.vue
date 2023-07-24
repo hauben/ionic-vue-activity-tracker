@@ -37,7 +37,6 @@ export default defineComponent({
       let currentSelectedActivity  = ""
 
       function stopWatch_Stop_Received(time:string) {
-        let date = new Date(time);
         stopTime = time;
 
         tableView.value.handleActivityStoppedEventFromParent(currentSelectedActivity, startTime, stopTime);
