@@ -17,7 +17,7 @@
 <br/>
 
 ## Description:
-This application uses the [Ionic Framework 6](https://ionicframework.com/) and [VueJs 3](https://vuejs.org/). The purpose of this app is to keep track of the amount of time you have spent on certain activities. An activity could be anything like *jogging*, *hacking*, *reading*, *walking* and so on. You can keep track of any task/activity where you wanna have an overview of how much time you have spent within a given period. All the data which you enter gets stored locally on your device/browser. No cloud services are used.
+This application uses the [Ionic Framework 7](https://ionicframework.com/) and [VueJs 3](https://vuejs.org/). The purpose of this app is to keep track of the amount of time you have spent on certain activities. An activity could be anything like *jogging*, *hacking*, *reading*, *walking* and so on. You can keep track of any task/activity where you wanna have an overview of how much time you have spent within a given period. All the data which you enter gets stored locally on your device/browser. No cloud services are used.
 
 ![Activity Tracker Screenshot](app-screenshots/Screenshot.jpg)
 
